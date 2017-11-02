@@ -4305,11 +4305,11 @@ declare namespace Cy {
     }
     interface AnimatedLayoutOptions {
         // whether to transition the node positions
-        animate: boolean;
+        animate: boolean | string;
         // duration of animation in ms if enabled
         animationDuration?: number;
         // easing of animation if enabled
-        animationEasing?: boolean;
+        animationEasing?: boolean | string;
     }
     /**
      * http://js.cytoscape.org/#layouts/random
